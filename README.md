@@ -1,2 +1,2 @@
-# TikTok-Encryption
-This is the method TikTok uses to encrypt certain sensative information on api calls
+# TikTok Encryption
+The method TikTok uses to encrypt sensative information on API calls, mostly on login but a few other endpoints use it. 
