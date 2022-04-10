@@ -1,8 +1,6 @@
 def encrypt(string):
-    encrypted = ""
-    for c in string:
-        encrypted += hex(ord(c) ^ 5).replace("0x", "")
-    return encrypted
+    encrypted = [hex(ord(c) ^ 5)[2:] for c in string]
+    return "".join(encrypted)
 
 if __name__ == "__main__":
     pre = input("To encrypt: ")
