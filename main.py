@@ -13,4 +13,4 @@ def decrypt(string):
 if __name__ == "__main__":
     encrypted = encrypt(input("To encrypt: "))
     print("Encrypted:", encrypted)
-    print("Decrypted:", decrypt(encrypted))
+    print("Decrypted:", decrypt(encrypted)) 
